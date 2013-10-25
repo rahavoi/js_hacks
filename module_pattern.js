@@ -11,7 +11,7 @@ MYAPP.modules.testModule = (function(){
 	
 	Constr = function(){
 		this.sayHello = function(){
-			console.log('Hello, I am a module. My name is: ' + this.toString());
+			console.log('Hello, I am a module! My name is: ' + this.toString());
 		};
 		
 		this.toString = function(){
